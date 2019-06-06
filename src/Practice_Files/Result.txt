@@ -1,0 +1,38 @@
+# Default ASSIGN Configuration Script
+# This file can be used to configure the editor windows.
+# GENERAL:
+ASSIGN C+Z UNDO;
+ASSIGN CS+C COPY;
+ASSIGN C+G GROUP;
+ASSIGN C+W WIRE;
+ASSIGN C+T TEXT;
+ASSIGN CS+P POLYGON;
+#ASSIGN C+X CHANGE;
+
+ASSIGN C+E ERRORS;
+#ASSIGN CS+D DRC;    # Opens DRC dialog.
+ASSIGN CS+R RIPUP;
+ASSIGN C+H HOLE;
+# Route related key assingments
+ASSIGN A+P Set Obstacle_Mode Push;
+ASSIGN A+1 Set Via_Pattern Perpendicular;
+ASSIGN A+3 Set Via_Pattern Angle_Left;
+ASSIGN A+A DECSpacing;      # While multi-routing, DECrease the spacing between routed wires
+ASSIGN A+D MINSpacing;       # While multi-routing, set the spacing to the MINimum design rule.
+ASSIGN C+1 Route;
+ASSIGN C+3 RoutEDiff;
+ASSIGN C+5 QRouteSignal;
+ASSIGN C+7 QRouteSmooth;
+
+ASSIGN C+E ERRORS;
+ASSIGN CS+I INVOKE;
+ASSIGN CS+S SMASH;
+      ASSIGN C+N NET; 
+LBR:
+
+ASSIGN C+C CONNECT;
+
+
+
+ASSIGN C+H HOLE;
+ASSIGN C+S SMD; 
