@@ -15,7 +15,7 @@ public class IntroToFileIO {
 			FileReader fr = new FileReader("src/_00_Intro_To_File_Input_and_Output/test.txt");
 			int c = fr.read();
 			while(c != -1){
-				System.out.print((char)c);
+				System.out .print((char)c);
 				c = fr.read();
 			}
 			fr.close();
